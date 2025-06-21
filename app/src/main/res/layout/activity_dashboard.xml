@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="wrap_content"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".Dashboard"
+        android:id="@+id/main">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardViewMain"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            app:cardBackgroundColor="@color/background"
+            android:layout_marginTop="80dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            app:cardElevation="20dp"
+            app:cardCornerRadius="20dp">
+
+            <com.denzcoskun.imageslider.ImageSlider
+                android:id="@+id/imageSlider"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:iss_auto_cycle="true"
+                app:iss_corner_radius="20"
+                app:iss_delay="2000"
+                app:iss_period="2000"
+                app:iss_title_background="@drawable/gradient" >
+
+            </com.denzcoskun.imageslider.ImageSlider>
+
+        </androidx.cardview.widget.CardView>
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_marginLeft="20dp"
+            android:layout_width="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/menu" />
+
+
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cardViewMain"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:columnCount="2">
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_margin="8dp"
+                app:cardCornerRadius="16dp"
+                android:layout_columnWeight="1"
+                app:cardElevation="8dp"
+                android:id="@+id/investor">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/inv"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:fontFamily="@font/allerta_stencil"
+                        android:text="Investor Hub"
+                        android:textColor="@android:color/black"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_margin="8dp"
+                app:cardCornerRadius="16dp"
+                android:layout_columnWeight="1"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/env" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:fontFamily="@font/allerta_stencil"
+                        android:text="Entrepreneur"
+                        android:textColor="@android:color/black"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_margin="8dp"
+                app:cardCornerRadius="16dp"
+                android:layout_columnWeight="1"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/ideahub" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:fontFamily="@font/allerta_stencil"
+                        android:text="Idea Hub"
+                        android:textColor="@android:color/black"
+                        android:textSize="14sp"
+                        android:textStyle="bold"  />
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_margin="8dp"
+                app:cardCornerRadius="16dp"
+                android:layout_columnWeight="1"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/knw" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:fontFamily="@font/allerta_stencil"
+                        android:text="Knowledge Hub"
+                        android:textColor="@android:color/black"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_margin="8dp"
+                app:cardCornerRadius="16dp"
+                android:layout_columnWeight="1"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/st" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:fontFamily="@font/allerta_stencil"
+                        android:text="Customize"
+                        android:textColor="@android:color/black"
+                        android:textSize="14sp"
+                        android:textStyle="bold"  />
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_margin="8dp"
+                app:cardCornerRadius="16dp"
+                android:layout_columnWeight="1"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/profile" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:fontFamily="@font/allerta_stencil"
+                        android:text="Profile"
+                        android:textColor="@android:color/black"
+                        android:textSize="14sp"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_margin="8dp"
+                app:cardCornerRadius="16dp"
+                android:layout_columnWeight="1"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/link" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:fontFamily="@font/allerta_stencil"
+                        android:text="Linked"
+                        android:textColor="@android:color/black"
+                        android:textSize="14sp"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_margin="8dp"
+                app:cardCornerRadius="16dp"
+                android:layout_columnWeight="1"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/about" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:fontFamily="@font/allerta_stencil"
+                        android:text="About Us"
+                        android:textColor="@android:color/black"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </GridLayout>
+    </RelativeLayout>
+
+</ScrollView>
