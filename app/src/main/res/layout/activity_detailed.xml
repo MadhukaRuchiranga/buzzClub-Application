@@ -1,88 +1,124 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:padding="16dp"
     tools:context=".DetailedActivity">
 
-    <TextView
-        android:id="@+id/detailName"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Investor Name"
-        android:textSize="24sp"
-        android:textColor="@color/background"
-        android:textStyle="bold"
-        android:layout_gravity="center"
-        android:layout_marginTop="14dp"/>
+        android:orientation="vertical"
+        android:padding="16dp">
 
-    <androidx.cardview.widget.CardView
-        android:id="@+id/cardImage"
-        android:layout_width="380dp"
-        android:layout_height="200dp"
-        android:layout_gravity="center"
-        app:cardCornerRadius="20dp"
-        app:cardElevation="8dp"
-        android:layout_marginTop="20dp">
+        <TextView
+            android:id="@+id/homeName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Investor Name"
+            android:textSize="24sp"
+            android:textColor="@color/background"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"/>
 
-        <ImageView
-            android:id="@+id/detailImage"
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardImage"
             android:layout_width="380dp"
             android:layout_height="200dp"
             android:layout_gravity="center"
-            android:src="@drawable/profile"
-            android:scaleType="centerCrop"/>
-    </androidx.cardview.widget.CardView>
+            app:cardCornerRadius="20dp"
+            app:cardElevation="8dp"
+            android:layout_marginTop="20dp">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Name"
-        android:textColor="@color/background"
-        android:textStyle="bold"
-        android:layout_marginStart="10dp"
-        android:textSize="18sp"
-        android:layout_marginTop="30dp"/>
+            <ImageView
+                android:id="@+id/detailImage"
+                android:layout_width="380dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/profile"
+                android:scaleType="centerCrop"/>
+        </androidx.cardview.widget.CardView>
 
-    <TextView
-        android:id="@+id/detailTime"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Name"
-        android:layout_marginStart="10dp"
-        android:textSize="16sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textColor="@color/background"
+            android:textStyle="bold"
+            android:layout_marginStart="10dp"
+            android:textSize="18sp"
+            android:layout_marginTop="30dp"/>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Description"
-        android:textColor="@color/background"
-        android:textStyle="bold"
-        android:layout_marginStart="10dp"
-        android:textSize="18sp"
-        android:layout_marginTop="30dp"/>
+        <TextView
+            android:id="@+id/detailName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:layout_marginStart="10dp"
+            android:textSize="16sp"/>
 
-    <TextView
-        android:id="@+id/wait"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Description of the investor"
-        android:layout_marginStart="10dp"
-        android:textSize="16sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Location"
+            android:textColor="@color/background"
+            android:textStyle="bold"
+            android:layout_marginStart="10dp"
+            android:textSize="18sp"
+            android:layout_marginTop="30dp"/>
 
-    <Button
-        android:id="@+id/mapGo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Go to Map"
-        android:width="250dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="50dp"/>
+        <TextView
+            android:id="@+id/wait"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Loation of the investor"
+            android:layout_marginStart="10dp"
+            android:textSize="16sp"/>
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Discription"
+            android:textColor="@color/background"
+            android:textStyle="bold"
+            android:layout_marginStart="10dp"
+            android:textSize="18sp"
+            android:layout_marginTop="30dp"/>
 
-</LinearLayout>
+        <TextView
+            android:id="@+id/desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Discription of Investor"
+            android:layout_marginStart="10dp"
+            android:textSize="16sp"/>
+
+        <Button
+            android:id="@+id/mapGo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Go to Map"
+            android:textSize="14sp"
+            android:backgroundTint="@color/background"
+            android:textColor="@color/white"
+            android:width="250dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"/>
+
+        <Button
+            android:id="@+id/select"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Another"
+            android:textSize="14sp"
+            android:backgroundTint="@color/background"
+            android:textColor="@color/white"
+            android:width="250dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"/>
+    </LinearLayout>
+</ScrollView>
