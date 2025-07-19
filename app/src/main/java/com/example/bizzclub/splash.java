@@ -1,3 +1,4 @@
+//Package of the project
 package com.example.bizzclub;
 
 //imports for the projects
@@ -13,11 +14,13 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+//splash class
 public class splash extends AppCompatActivity {
 
     //constructor
     ProgressBar progressBar;
 
+    //on create method
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,9 +33,9 @@ public class splash extends AppCompatActivity {
 
         // handling the splash part
         new Handler().postDelayed(()->{
-            startActivity(new Intent(splash.this,MainActivity.class));
+            startActivity(new Intent(splash.this,MainActivity.class)); //naviagtion to main activity
             finish();
-        },4000);
+        },4000); // Time out of the splash screen
 
         //view compact part --> put this bottom
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {

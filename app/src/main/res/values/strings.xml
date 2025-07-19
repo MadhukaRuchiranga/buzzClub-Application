@@ -4,6 +4,7 @@
     <string name="todo">TODO</string>
     <string name="bizzclub">BizzClub</string>
     <string name="title_activity_dashboard">Dashboard</string>
+
     <string name="large_text">
         "Material is the metaphor.\n\n"
 
@@ -97,4 +98,39 @@
     <string name="my_api_key">AIzaSyALl8ay5DuqThK3exh-BHskAPxnZtcAyFI</string>
 
     <string name="action_settings">Settings</string>
+    <string name="About_bizzclub">
+                          This is an application that collaborate entrepreneur and investors together. Also,
+        the peoples who have interest on the business fields or gain knowledge about
+        that field can refer this application. This application provides a necessary
+        tool to collaborate with each other like can share or interconnect with others
+        via the messenger and also can linked with other valuable social platforms. In
+        other hand this is a professional kind of application that provide the knowledge
+        rather than entertainment. Entrepreneurs can find the investors who willing with
+        their business idea and also, they can refer some business knowledge related to
+        those ideas. Also, investors can find good opportunities to invest their money.
+        This is a basic idea that business club application does.
+    </string>
+    <string name="About_founder">
+                          This is an application that collaborate entrepreneur and investors together. Also,
+        the peoples who have interest on the business fields or gain knowledge about
+        that field can refer this application. This application provides a necessary
+        tool to collaborate with each other like can share or interconnect with others
+        via the messenger and also can linked with other valuable social platforms. In
+        other hand this is a professional kind of application that provide the knowledge
+        rather than entertainment. Entrepreneurs can find the investors who willing with
+        their business idea and also, they can refer some business knowledge related to
+        those ideas. Also, investors can find good opportunities to invest their money.
+        This is a basic idea that business club application does.
+        This is an application that collaborate entrepreneur and investors together. Also,
+        the peoples who have interest on the business fields or gain knowledge about
+        that field can refer this application. This application provides a necessary
+        tool to collaborate with each other like can share or interconnect with others
+        via the messenger and also can linked with other valuable social platforms. In
+        other hand this is a professional kind of application that provide the knowledge
+        rather than entertainment. Entrepreneurs can find the investors who willing with
+        their business idea and also, they can refer some business knowledge related to
+        those ideas. Also, investors can find good opportunities to invest their money.
+        This is a basic idea that business club application does.
+    </string>
+
 </resources>

@@ -7,9 +7,12 @@
     android:layout_height="match_parent"
     tools:context=".LoginPage">
 
+    <!--Logo of he application-->
+
+    <!--Bottom text of Heading-->
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/logoImage"
         android:layout_width="215dp"
         android:layout_height="260dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -26,11 +29,13 @@
         android:text="Create a New Account With Us"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        android:textStyle="italic"
         app:layout_constraintHorizontal_bias="0.081"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.346" />
 
+    <!--Sign Up button(Account create)-->
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
@@ -45,6 +50,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.729" />
 
+    <!--Email enter field-->
     <EditText
         android:id="@+id/editTextTextEmailAddress2"
         android:layout_width="wrap_content"
@@ -60,6 +66,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.434" />
 
+    <!--Password enter field-->
     <EditText
         android:id="@+id/editTextTextPassword2"
         android:layout_width="wrap_content"
@@ -75,6 +82,7 @@
         app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress2"
         app:layout_constraintVertical_bias="0.047" />
 
+    <!--Re enter field for password-->
     <EditText
         android:id="@+id/editTextTextPassword"
         android:layout_width="wrap_content"
@@ -87,9 +95,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress2"
-        app:layout_constraintVertical_bias="0.233" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword2"
+        app:layout_constraintVertical_bias="0.067" />
 
+    <!--Header Text-->
     <TextView
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
@@ -104,6 +113,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0" />
 
+    <!--choice hint text (bottom)-->
     <TextView
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
@@ -116,6 +126,7 @@
         app:layout_constraintTop_toBottomOf="@+id/button"
         app:layout_constraintVertical_bias="0.174" />
 
+    <!--Text of choices bottom-->
     <TextView
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
@@ -128,6 +139,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView6"
         app:layout_constraintVertical_bias="0.811" />
 
+    <!--sign in text (navigate to login page)-->
     <TextView
         android:id="@+id/existAccount"
         android:layout_width="wrap_content"
@@ -142,6 +154,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView6"
         app:layout_constraintVertical_bias="0.813" />
 
+    <!--facebook logo-->
     <ImageView
         android:id="@+id/facebook"
         android:layout_width="38dp"
@@ -154,6 +167,7 @@
         app:layout_constraintVertical_bias="0.897"
         app:srcCompat="@drawable/facebook" />
 
+    <!--Google logo-->
     <ImageView
         android:id="@+id/google"
         android:layout_width="34dp"
@@ -166,6 +180,7 @@
         app:layout_constraintVertical_bias="0.892"
         app:srcCompat="@drawable/google" />
 
+    <!--LinkedIn logo-->
     <ImageView
         android:id="@+id/linkedIn"
         android:layout_width="40dp"
@@ -177,17 +192,5 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.897"
         app:srcCompat="@drawable/linkedin" />
-
-    <ImageView
-        android:id="@+id/back"
-        android:layout_width="31dp"
-        android:layout_height="34dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.047"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView3"
-        app:layout_constraintVertical_bias="0.022"
-        app:srcCompat="@drawable/arrow" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

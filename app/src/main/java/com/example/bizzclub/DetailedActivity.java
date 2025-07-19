@@ -37,7 +37,7 @@ public class DetailedActivity extends AppCompatActivity {
         Button mapBtn = findViewById(R.id.mapGo);
         mapBtn.setOnClickListener(v -> {
             Intent intentNew = new Intent(DetailedActivity.this, Map.class);
-            intentNew.putExtra("user_location", detailLocation.getText().toString().trim()); // 💥 Add location here
+            intentNew.putExtra("user_location", detailLocation.getText().toString().trim()); // Add location here
             startActivity(intentNew);
         });
 
