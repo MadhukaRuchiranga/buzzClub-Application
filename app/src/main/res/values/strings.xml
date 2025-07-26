@@ -132,5 +132,11 @@
         those ideas. Also, investors can find good opportunities to invest their money.
         This is a basic idea that business club application does.
     </string>
+    <string name="contact_us">
+        Do not hesitate to contact us whether you have a suggestion on our improvements,a complain to discuss or and issue to solve
+    </string>
+    <string name="conclution">
+        If you have any concern or issue regarding our application or services feelfreetocontact us..😃
+    </string>
 
 </resources>

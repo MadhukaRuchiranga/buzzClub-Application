@@ -105,5 +105,14 @@ public class Dashboard extends AppCompatActivity {
             Intent browserIntent = new Intent(Dashboard.this, About_us.class);
             startActivity(browserIntent);
         });
+
+        //contact us navigation
+
+        cardViewAbout =findViewById(R.id.contactUs);
+        cardViewAbout.setOnClickListener(v -> {
+            Intent browserIntent = new Intent(Dashboard.this, ContactUs.class);
+            startActivity(browserIntent);
+        });
+
     }
 }
