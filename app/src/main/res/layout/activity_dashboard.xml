@@ -136,7 +136,7 @@
                             <ImageView
                                 android:layout_width="100dp"
                                 android:layout_height="100dp"
-                                android:src="@drawable/logo" />
+                                android:src="@drawable/investorgrid" />
 
                             <TextView
                                 android:layout_width="wrap_content"
@@ -168,7 +168,7 @@
                             <ImageView
                                 android:layout_width="100dp"
                                 android:layout_height="100dp"
-                                android:src="@drawable/logo" />
+                                android:src="@drawable/entrepreneur" />
 
                             <TextView
                                 android:layout_width="wrap_content"
@@ -200,7 +200,7 @@
                             <ImageView
                                 android:layout_width="100dp"
                                 android:layout_height="100dp"
-                                android:src="@drawable/logo" />
+                                android:src="@drawable/ideahub" />
 
                             <TextView
                                 android:layout_width="wrap_content"
@@ -232,7 +232,7 @@
                             <ImageView
                                 android:layout_width="100dp"
                                 android:layout_height="100dp"
-                                android:src="@drawable/logo" />
+                                android:src="@drawable/knowledgehub" />
 
                             <TextView
                                 android:layout_width="wrap_content"
@@ -264,7 +264,7 @@
                             <ImageView
                                 android:layout_width="100dp"
                                 android:layout_height="100dp"
-                                android:src="@drawable/logo" />
+                                android:src="@drawable/customize" />
 
                             <TextView
                                 android:layout_width="wrap_content"
@@ -296,7 +296,7 @@
                             <ImageView
                                 android:layout_width="100dp"
                                 android:layout_height="100dp"
-                                android:src="@drawable/logo" />
+                                android:src="@drawable/profilrmanagement" />
 
                             <TextView
                                 android:layout_width="wrap_content"
@@ -329,14 +329,14 @@
                             <ImageView
                                 android:layout_width="100dp"
                                 android:layout_height="100dp"
-                                android:src="@drawable/logo" />
+                                android:src="@drawable/contactusgrid" />
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center_horizontal"
                                 android:fontFamily="@font/allerta_stencil"
-                                android:text="Linked"
+                                android:text="Contact Us"
                                 android:textColor="@color/background"
                                 android:textSize="14sp"
                                 android:textStyle="bold" />
@@ -362,7 +362,7 @@
                             <ImageView
                                 android:layout_width="100dp"
                                 android:layout_height="100dp"
-                                android:src="@drawable/logo" />
+                                android:src="@drawable/aboutusgrid" />
 
                             <TextView
                                 android:layout_width="wrap_content"

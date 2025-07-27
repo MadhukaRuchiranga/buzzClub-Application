@@ -16,7 +16,7 @@
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1" >
+            android:layout_weight="1">
 
             <ImageView
                 android:id="@+id/imageView10"
@@ -29,10 +29,35 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            app:cardBackgroundColor="@color/background"
             android:topLeftRadius="26dp"
-            android:topRightRadius="26dp"/>
+            android:topRightRadius="26dp"
+            app:cardBackgroundColor="@color/background" />
 
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:paddingStart="-150dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/menu" />
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="150dp"
+            android:layout_weight="1"
+           android:layout_gravity="end"
+            app:srcCompat="@drawable/faq" />
     </LinearLayout>
 
     <androidx.cardview.widget.CardView
@@ -224,7 +249,7 @@
                                 android:layout_gravity="center_vertical"
                                 android:layout_weight="1"
                                 android:paddingStart="-60dp"
-                                app:srcCompat="@drawable/facebook" />
+                                app:srcCompat="@drawable/instergram" />
 
                             <TextView
                                 android:layout_width="50dp"
@@ -258,7 +283,7 @@
                                 android:layout_gravity="center_vertical"
                                 android:layout_weight="1"
                                 android:paddingStart="-60dp"
-                                app:srcCompat="@drawable/facebook" />
+                                app:srcCompat="@drawable/whatsapp" />
 
                             <TextView
                                 android:layout_width="50dp"
@@ -292,7 +317,7 @@
                                 android:layout_gravity="center_vertical"
                                 android:layout_weight="1"
                                 android:paddingStart="-60dp"
-                                app:srcCompat="@drawable/facebook" />
+                                app:srcCompat="@drawable/telegram" />
 
                             <TextView
                                 android:layout_width="50dp"
